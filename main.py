@@ -15,7 +15,7 @@ if current_weekday:
     # Set up your Email
 
     # This is my clone Email :)
-    my_email= "ngoc2002quach@gmail.com"
+    my_email= "example@gmail.com"
     # My password was created randomly by my
     # previous Project called "Password Manager"
     password = "99!+h0$TPkG&7ZpQ"
@@ -32,7 +32,7 @@ if current_weekday:
         connection.login(user=my_email, password=password)
         connection.sendmail(
             from_addr=my_email,
-            to_addrs="ngoc2002quach@gmail.com",
+            to_addrs="example@gmail.com",
             msg="Subject:Motivate Quotes\n\n" + f"{chosen_quotes}"
         )
 
